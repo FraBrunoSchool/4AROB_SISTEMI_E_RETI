@@ -10,13 +10,12 @@
    can open files and run read on them from within python3.6?
 7. Have your script also call close() on the txt and txt_again variables. It’s important to close files when you are
    done with them.
-
 """
 
 # import a module
 from sys import argv
 
-# stores the values ​​contained by argv
+# stores the values contained by argv
 script, filename = argv
 
 # open the file
