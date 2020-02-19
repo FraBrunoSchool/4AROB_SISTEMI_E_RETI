@@ -8,10 +8,9 @@ def main():
             colonna.append(0)
         for j in E:
             if j != i:
-                print(j)
-            colonna[j-1] = 1
+                colonna[j-1] = 1
         grafo.append(colonna)
-        print(E)
+
     print(grafo)
 
 
