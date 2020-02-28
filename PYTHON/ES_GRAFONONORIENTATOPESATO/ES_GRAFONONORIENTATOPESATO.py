@@ -1,6 +1,11 @@
+import networkx as nx
+import matplotlib.pyplot as plt
+
 def main():
     v = int(input("Inserire il numero di nodi"))
     m = creaMatriceDaNumNodi(v)
+    m = creaMatriceDaDict(d, v)
+    stampaDict(m)
     stampaMatrice(m, v)
 
 
@@ -65,6 +70,17 @@ def stampaDict(dict):
         print(f"\t{key}: {val},")
 
     print("}")
+
+
+def drawGrafo(dict):
+    G = nx.Graph()
+    for key, val in dict.items():
+        G.add_node(key)
+        for i in val:
+            G.add_edge(int(key), int(i))
+    print(f"\n{nx.info(G)}")
+    nx.draw(G)
+    plt.show()
 
 
 if __name__ == '__main__':

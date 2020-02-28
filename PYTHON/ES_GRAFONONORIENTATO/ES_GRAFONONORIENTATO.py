@@ -7,6 +7,7 @@ def main():
     dict = creaDictDaNumNodi(v)
     stampaDict(dict)
     stampaMatrice(creaMatriceDaDict(dict, v), v)
+    drawGrafo(dict)
 
 
 def creaMatriceDaNumNodi(v):
@@ -73,19 +74,14 @@ def stampaDict(dict):
 
 
 def drawGrafo(dict):
-    G = nx.petersen_graph()
-    listaNodi = []
-    listaToupleLink = []
+    G = nx.Graph()
     for key, val in dict.items():
-        listaNodi.append(key)
+        G.add_node(key)
         for i in val:
-            toupleLink = [int(key), int(i)]
-            listaToupleLink.append(tuple(toupleLink))
-
-    G.add_nodes_from(listaNodi)
-    G.add_nodes_from(listaToupleLink)
-    plt.subplot(121)
-    nx.draw(G, with_labels=True, font_weight='bold')
+            G.add_edge(int(key), int(i))
+    print(f"\n{nx.info(G)}")
+    nx.draw(G)
+    plt.show()
 
 
 
