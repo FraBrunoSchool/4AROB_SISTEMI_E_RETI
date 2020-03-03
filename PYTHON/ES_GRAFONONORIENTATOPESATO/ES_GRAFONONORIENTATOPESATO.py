@@ -97,7 +97,5 @@ def drawGrafo(dict):
     plt.show()
 
 
-# FG.add_weighted_edges_from([(1, 2, 0.125), (1, 3, 0.75), (2, 4, 1.2), (3, 4, 0.375)])
-
 if __name__ == '__main__':
     main()
