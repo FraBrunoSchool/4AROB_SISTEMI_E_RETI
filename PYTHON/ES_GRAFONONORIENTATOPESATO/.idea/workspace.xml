@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3be77475-b13c-47f3-b8cb-6fc366b856bc" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3be77475-b13c-47f3-b8cb-6fc366b856bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ES_GRAFONONORIENTATOPESATO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ES_GRAFONONORIENTATOPESATO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES_GRAFONONORIENTATOPESATO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ES_GRAFONONORIENTATOPESATO.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +19,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1YIvnqa0PmK0fVDiBKNiEKodW4i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ES_GRAFONONORIENTATOPESATO.py" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="ES_GRAFONONORIENTATOPESATO" type="PythonConfigurationType" factoryName="Python">
@@ -40,7 +40,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="E:\DATI\GitHub\ES_GRAFONONORIENTATOPESATO\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -73,7 +73,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ES_GRAFONONORIENTATOPESATO$ES_GRAFONONORIENTATOPESATO.coverage" NAME="ES_GRAFONONORIENTATOPESATO Coverage Results" MODIFIED="1582643459571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  <component name="WindowStateProjectService">
+    <state x="1955" y="235" width="732" height="639" key="#Inspections" timestamp="1583253665458">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1955" y="235" width="732" height="639" key="#Inspections/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1583253665458" />
+    <state x="1784" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583252061643">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1784" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1583252061643" />
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom" timestamp="1583254334506">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1583254334506" />
+    <state width="1899" height="278" key="GridCell.Tab.0.center" timestamp="1583254334506">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.center/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1583254334506" />
+    <state width="1899" height="278" key="GridCell.Tab.0.left" timestamp="1583254334506">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.left/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1583254334506" />
+    <state width="1899" height="278" key="GridCell.Tab.0.right" timestamp="1583254334506">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1583254334506" />
   </component>
 </project>
