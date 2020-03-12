@@ -91,7 +91,7 @@ def drawGrafo(dict):
         peso = val["weights"]
         for e, p in zip(edge, peso):
             G.add_edge(int(key), int(e), weight=p)
-            G.edges[key, e]['weight']=p
+            G.edges[key, e]['weight'] = p
     print(f"\n{nx.info(G)}")
     nx.draw(G)
     plt.show()

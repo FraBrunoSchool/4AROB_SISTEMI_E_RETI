@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3be77475-b13c-47f3-b8cb-6fc366b856bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ES_GRAFONONORIENTATOPESATO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ES_GRAFONONORIENTATOPESATO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ES_GRAFONONORIENTATOPESATO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ES_GRAFONONORIENTATOPESATO.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
