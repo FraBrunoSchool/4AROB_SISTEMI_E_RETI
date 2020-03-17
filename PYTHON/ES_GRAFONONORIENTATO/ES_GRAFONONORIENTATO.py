@@ -62,7 +62,7 @@ def stampaMatrice(matrix, v):
     for r in range(0, v):
         print(" ")
         for c in range(0, v):
-            print(matrix[r][c], end=' ')
+            print(matrix[c][r], end=' ')
 
 
 def stampaDict(dict):
