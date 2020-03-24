@@ -79,7 +79,6 @@ def stampaDict(dict):
     print("\n{")
     for key, val in dict.items():
         print(f"\t{key}: {val},")
-
     print("}")
 
 
