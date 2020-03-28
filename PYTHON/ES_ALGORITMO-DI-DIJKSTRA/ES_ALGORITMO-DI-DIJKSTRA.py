@@ -27,8 +27,7 @@ def stampaDict(dict):
             print(f"{key}: \t\t{val}")
 
 
-def dijkstra(matrix):
-    source = int(input("\nInserisci il nodo sorgente: "))
+def dijkstra(matrix, source):
     usati = {"nodi": [], "pesi": [], "precedente": []}
     dist = [100000000 for _ in range(0, len(matrix))]
     dist[source] = 0
@@ -41,14 +40,9 @@ def dijkstra(matrix):
         usati["nodi"].append(nodo)
         usati["pesi"].append(u)
         usati["precedente"].append(prec)
-        for nodiVicini in matrix[nodo]:
-            if nodiVicini > 0 and matrix[nodo].index(nodiVicini) in successori:
-                # matrix[nodo].index(nodiVicini) --> posizione nella matrice
-                # successori.index(matrix[nodo].index(nodiVicini)) --> posizione nodo in successori
-                # nodiVicini + u --> nuova distanza
-                if nodiVicini + u < dist[successori.index(matrix[nodo].index(nodiVicini))]:
-                    dist[successori.index(matrix[nodo].index(nodiVicini))] = nodiVicini + u
-            matrix[nodo][matrix[nodo].index(nodiVicini)] = 0
+        for pos, peso in enumerate(matrix[nodo]):
+            if peso > 0 and pos in successori:
+                if peso + u < dist[successori.index(pos)]: dist[successori.index(pos)] = peso + u
         prec = nodo
     return usati
 
@@ -58,8 +52,10 @@ def main():
             [1, 0, 1, 3],
             [4, 1, 0, 1],
             [0, 3, 1, 0]]
+    source = 0
     stampaMatrice(grid)
-    stampaDict(dijkstra(grid))
+    print("\n")
+    stampaDict(dijkstra(grid, source))
 
 
 if __name__ == '__main__':
