@@ -10,7 +10,7 @@ def caricaDati(nomeFile):
         lineSplit = line.split(' ')
         chiave = int(lineSplit.pop(0))
         nodi = [int(n) for n in lineSplit]
-        dict[chiave]=nodi
+        dict[chiave] = nodi
     data.close()
     return dict
 
@@ -22,7 +22,6 @@ def creaMatriceDaDict(dict):
         for link in val:
             colonna[link - 1] = 1
         matrix.append(colonna)
-
     return matrix
 
 
@@ -37,7 +36,6 @@ def stampaDict(dict):
     print("\n{")
     for key, val in dict.items():
         print(f"\t{key}: {val},")
-
     print("}")
 
 
@@ -83,7 +81,6 @@ def main():
     #drawGrafo(d)
     lista = trovaPazienteZero(d)
     print(lista)
-
 
 
 if __name__ == '__main__':
