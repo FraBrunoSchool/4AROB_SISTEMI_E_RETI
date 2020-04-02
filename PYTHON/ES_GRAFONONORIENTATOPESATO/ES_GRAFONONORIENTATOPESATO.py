@@ -21,7 +21,6 @@ def creaMatriceDaNumNodi(v):
             if j != i:
                 colonna[j - 1] = int(input(f"Inserire il peso tra il nodo {i} e il nodo {j}"))
         matrix.append(colonna)
-
     return matrix
 
 
@@ -36,7 +35,6 @@ def creaDictDaNumNodi(v):
             if j != occ:
                 edge.append(int(input(f"Inserire il peso tra il nodo {chiave} e il nodo {j}")))
         dict[chiave] = {"neighbors": occ, "weights": edge}
-
     return dict
 
 
@@ -51,7 +49,6 @@ def creaDictDaMatrice(grafo):
                 occ.append(c + 1)
                 edge.append(grafo[r][c])
         dict[chiave] = {"neighbors": occ, "weights": edge}
-
     return dict
 
 
@@ -64,7 +61,6 @@ def creaMatriceDaDict(dict, v):
         for e, p in zip(edge, peso):
             colonna[e - 1] = p
         matrix.append(colonna)
-
     return matrix
 
 

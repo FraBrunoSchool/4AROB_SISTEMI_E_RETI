@@ -19,7 +19,6 @@ def creaMatriceDaNumNodi(v):
             if j != i:
                 colonna[j - 1] = 1
         matrix.append(colonna)
-
     return matrix
 
 
@@ -30,7 +29,6 @@ def creaDictDaNumNodi(v):
         occ = [int(i) for i in
                input(f"Inserire le vicinanze del nodo {chiave} (usare la '.' come separatore): ").split('.')]
         dict[chiave] = occ
-
     return dict
 
 
@@ -43,7 +41,6 @@ def creaDictDaMatrice(grafo):
             if grafo[r][c] == 1:
                 occ.append(c + 1)
         dict[chiave] = occ
-
     return dict
 
 
@@ -54,7 +51,6 @@ def creaMatriceDaDict(dict, v):
         for link in val:
             colonna[link - 1] = 1
         matrix.append(colonna)
-
     return matrix
 
 
@@ -69,7 +65,6 @@ def stampaDict(dict):
     print("\n{")
     for key, val in dict.items():
         print(f"\t{key}: {val},")
-
     print("}")
 
 
@@ -82,7 +77,6 @@ def drawGrafo(dict):
     print(f"\n{nx.info(G)}")
     nx.draw(G)
     plt.show()
-
 
 
 if __name__ == '__main__':
