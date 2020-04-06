@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3be77475-b13c-47f3-b8cb-6fc366b856bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ES_GRAFONONORIENTATOPESATO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ES_GRAFONONORIENTATOPESATO.py" afterDir="false" />
-    </list>
+    <list default="true" id="3be77475-b13c-47f3-b8cb-6fc366b856bc" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +27,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ES_GRAFONONORIENTATOPESATO.py" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="ES_GRAFONONORIENTATOPESATO" type="PythonConfigurationType" factoryName="Python">
@@ -64,11 +75,23 @@
       <option name="presentableId" value="Default" />
       <updated>1582643092942</updated>
       <workItem from="1582643094150" duration="1836000" />
+      <workItem from="1586183306350" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="1955" y="235" width="732" height="639" key="#Inspections" timestamp="1583253665458">
