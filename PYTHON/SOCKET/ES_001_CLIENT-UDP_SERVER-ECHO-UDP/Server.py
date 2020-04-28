@@ -14,7 +14,7 @@ def server():
     while True:
 
         data, address = s.recvfrom(4096)    # receive message
-        data = str(data)[2:-1]
+        data = data.decode()
         print(f"from connected user:  {data}")
 
         if not data or data == "exit":
@@ -22,7 +22,7 @@ def server():
             print("Close the connection")
             break
 
-        s.sendto(bytes(data, 'utf-8'), address)    # send data to the client
+        s.sendto(data.encode(), address)    # send data to the client
 
     s.close()    # close the connection
 

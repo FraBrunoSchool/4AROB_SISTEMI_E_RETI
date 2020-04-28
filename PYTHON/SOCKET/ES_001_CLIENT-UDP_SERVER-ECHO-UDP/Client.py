@@ -13,12 +13,11 @@ def client():
 
     while True:
 
-        c.sendto(bytes(msg, 'utf-8'), (host, port))    # send message
+        c.sendto(msg.encode(), (host, port))    # send message
 
-        data, address = c.recvfrom(4096)    # receive message
-        data = str(data)[2:-1]
+        data = c.recv(4096)    # receive message
 
-        print(f"Received from server: {data}")   # show response
+        print(f"Received from server: {data.decode()}")   # show response
 
         msg = input("->")   # again take input
 
