@@ -2,9 +2,9 @@ import socket as sck
 
 
 def server():
-
+    # ip pubblico 79.31.222.112 porta 6000
     # get the hostname
-    host = "127.0.0.1"
+    host = "192.168.178.33"
     port = 6000     # initiate port
 
     s = sck.socket(sck.AF_INET, sck.SOCK_DGRAM)    # get instance
