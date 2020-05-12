@@ -3,7 +3,7 @@ import socket as sck
 
 def client():
 
-    host = "127.0.0.1"
+    host = "192.168.178.33"
     port = 6000     # server port number
 
     c = sck.socket(sck.AF_INET, sck.SOCK_DGRAM)    # instantiate
@@ -15,9 +15,9 @@ def client():
 
         c.sendto(msg.encode(), (host, port))    # send message
 
-        #data = c.recv(4096)    # receive message
+        data = c.recv(4096)    # receive message
 
-        #print(f"Received from server: {data.decode()}")   # show response
+        print(f"Received from server: {data.decode()}")   # show response
 
         msg = input("->")   # again take input
 
