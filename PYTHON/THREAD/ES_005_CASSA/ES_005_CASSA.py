@@ -1,6 +1,7 @@
 import threading
 import logging
 from random import *
+import time
 
 nBiglietti = 100
 s = threading.Lock()
@@ -9,6 +10,7 @@ s = threading.Lock()
 def cassa():
     global nBiglietti
     s.acquire()
+    time.sleep(1)
     biglietti = randint(1, 10)
     logging.info(f"Sono il cliente {threading.get_ident()} e voglio acquistare {biglietti} biglietti")
     if nBiglietti == 0:
