@@ -2,8 +2,9 @@ import socket as sck
 
 
 def client():
+    # "192.168.88.96"
 
-    server_ip = "192.168.88.83"
+    server_ip = "192.168.88.107"
     server_port = 7000     # server port number
 
     c = sck.socket(sck.AF_INET, sck.SOCK_DGRAM)    # instantiate

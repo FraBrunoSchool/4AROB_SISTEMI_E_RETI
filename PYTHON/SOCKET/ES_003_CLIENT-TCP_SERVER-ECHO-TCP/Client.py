@@ -3,13 +3,11 @@ import socket as sck
 
 def client():
     # get the server name
-    host = "127.0.0.1"
-    port = 6000  # server port number
-
+    host = "192.168.88.83"
+    port = 7000  # server port number
+    print("creo istanza")
     c = sck.socket(sck.AF_INET, sck.SOCK_STREAM)  # instantiate
-
-    c.connect((host, port))  # connect to the server
-
+    print("connect")
     print("Enter 'exit' to end the connection")
     msg = input("->")  # take input
 
