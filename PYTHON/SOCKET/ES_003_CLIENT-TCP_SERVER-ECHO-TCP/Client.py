@@ -7,6 +7,7 @@ def client():
     port = 7000  # server port number
     print("creo istanza")
     c = sck.socket(sck.AF_INET, sck.SOCK_STREAM)  # instantiate
+	c.connect()
     print("connect")
     print("Enter 'exit' to end the connection")
     msg = input("->")  # take input
